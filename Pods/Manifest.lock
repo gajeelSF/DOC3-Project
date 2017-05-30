@@ -1,0 +1,21 @@
+PODS:
+  - Bolts/Tasks (1.8.4)
+  - MBProgressHUD (1.0.0)
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
+  - SwiftGifOrigin (1.6.1)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - Parse
+  - SwiftGifOrigin (~> 1.6.1)
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+
+PODFILE CHECKSUM: 5651ddb79c98f4d9428a04a516fc2e7f17f26721
+
+COCOAPODS: 1.1.1

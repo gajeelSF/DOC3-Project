@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="U5j-fT-39G">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Inforamtion-->
+        <scene sceneID="iDV-Lr-yGK">
+            <objects>
+                <viewController id="esV-kf-Vbw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pp6-cU-hnT"/>
+                        <viewControllerLayoutGuide type="bottom" id="ERD-Qe-YDW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BEn-ce-3Jl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Inforamtion" id="bag-G1-KSV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oee-ev-bBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1351.2" y="-199.25037481259372"/>
+        </scene>
+        <!--Information-->
+        <scene sceneID="CNJ-gn-OGX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U5j-fT-39G" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Information" id="Bfx-Pa-Q97"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aje-I9-6VV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="esV-kf-Vbw" kind="relationship" relationship="rootViewController" id="E3X-Kq-Uq5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VZ0-nB-BoA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="412" y="-199.25037481259372"/>
+        </scene>
+    </scenes>
+</document>

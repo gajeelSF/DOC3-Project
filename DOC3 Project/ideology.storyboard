@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GYy-ni-6XB">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ideology-->
+        <scene sceneID="nOL-zz-HDA">
+            <objects>
+                <viewController id="azs-6x-cXY" customClass="IdeologyViewController" customModule="DOC3_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5iM-Is-QC6"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Mi-PP-Wzd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="exY-uD-8C5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="57S-ta-FWc" userLabel="New">
+                                <rect key="frame" x="0.0" y="291.5" width="320" height="227.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6461470302683" translatesAutoresizingMaskIntoConstraints="NO" id="s02-NE-OTW">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="227.5"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rtc-73-rKa">
+                                        <rect key="frame" x="111.5" y="87.5" width="97" height="53"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="44"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="Rtc-73-rKa" firstAttribute="centerY" secondItem="57S-ta-FWc" secondAttribute="centerY" id="3sN-nJ-VdJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="s02-NE-OTW" secondAttribute="bottom" id="JHB-X8-iGL"/>
+                                    <constraint firstItem="s02-NE-OTW" firstAttribute="leading" secondItem="57S-ta-FWc" secondAttribute="leading" id="P8h-V2-of1"/>
+                                    <constraint firstAttribute="trailing" secondItem="s02-NE-OTW" secondAttribute="trailing" id="Zr5-ex-5xa"/>
+                                    <constraint firstItem="s02-NE-OTW" firstAttribute="top" secondItem="57S-ta-FWc" secondAttribute="top" id="crB-ay-xMP"/>
+                                    <constraint firstItem="Rtc-73-rKa" firstAttribute="centerX" secondItem="57S-ta-FWc" secondAttribute="centerX" id="iX6-0A-wgr"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EI7-PD-i46" userLabel="Old">
+                                <rect key="frame" x="0.0" y="64" width="320" height="227.5"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chinese-on-way-to-US" translatesAutoresizingMaskIntoConstraints="NO" id="moa-uc-yq2">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="227.5"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Past" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxc-7c-xOk">
+                                        <rect key="frame" x="111.5" y="87.5" width="96" height="53"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="44"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="moa-uc-yq2" secondAttribute="trailing" id="MRy-qv-crG"/>
+                                    <constraint firstItem="moa-uc-yq2" firstAttribute="leading" secondItem="EI7-PD-i46" secondAttribute="leading" id="jXg-DA-r3L"/>
+                                    <constraint firstItem="hxc-7c-xOk" firstAttribute="centerY" secondItem="EI7-PD-i46" secondAttribute="centerY" id="kqg-1x-fMW"/>
+                                    <constraint firstItem="hxc-7c-xOk" firstAttribute="centerX" secondItem="EI7-PD-i46" secondAttribute="centerX" id="oTi-ai-mtO"/>
+                                    <constraint firstItem="moa-uc-yq2" firstAttribute="top" secondItem="EI7-PD-i46" secondAttribute="top" id="s42-ka-0z5"/>
+                                    <constraint firstAttribute="bottom" secondItem="moa-uc-yq2" secondAttribute="bottom" id="wsA-c3-DsL"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="0gf-LF-cyI" appends="YES" id="CaH-kG-WKq"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Mi-PP-Wzd" firstAttribute="top" secondItem="57S-ta-FWc" secondAttribute="bottom" id="IN7-za-EQn"/>
+                            <constraint firstItem="57S-ta-FWc" firstAttribute="top" secondItem="EI7-PD-i46" secondAttribute="bottom" id="Kwj-kA-qlP"/>
+                            <constraint firstAttribute="trailing" secondItem="EI7-PD-i46" secondAttribute="trailing" id="Q97-gE-I87"/>
+                            <constraint firstItem="EI7-PD-i46" firstAttribute="height" secondItem="57S-ta-FWc" secondAttribute="height" id="byS-Pp-yNT"/>
+                            <constraint firstItem="EI7-PD-i46" firstAttribute="top" secondItem="5iM-Is-QC6" secondAttribute="bottom" id="cL8-9H-vIl"/>
+                            <constraint firstItem="57S-ta-FWc" firstAttribute="top" secondItem="EI7-PD-i46" secondAttribute="bottom" id="cge-uz-41N"/>
+                            <constraint firstAttribute="trailing" secondItem="57S-ta-FWc" secondAttribute="trailing" id="pO0-q1-kZK"/>
+                            <constraint firstItem="EI7-PD-i46" firstAttribute="leading" secondItem="exY-uD-8C5" secondAttribute="leading" id="tKU-Pf-9gA"/>
+                            <constraint firstItem="57S-ta-FWc" firstAttribute="leading" secondItem="exY-uD-8C5" secondAttribute="leading" id="zJQ-LR-Ohb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ideology" id="41b-U9-mnx"/>
+                    <connections>
+                        <segue destination="Pwt-4Q-wpx" kind="show" identifier="toOld" id="t6g-6P-b4B"/>
+                        <segue destination="649-7g-Nqb" kind="show" identifier="toNew" id="hQg-rX-mon"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YLw-vd-Vnc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="0gf-LF-cyI">
+                    <connections>
+                        <action selector="onTapOld:" destination="azs-6x-cXY" id="Sq5-nn-Ku6"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1356" y="328.78560719640183"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BTr-LM-1uJ">
+            <objects>
+                <viewController id="649-7g-Nqb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qYN-C8-hVK"/>
+                        <viewControllerLayoutGuide type="bottom" id="4JM-oE-FAW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RQG-Ij-52S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q0x-Ar-4qF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2113" y="761"/>
+        </scene>
+        <!--Old Ideology Detail View Controller-->
+        <scene sceneID="c5C-Kd-Fog">
+            <objects>
+                <viewController id="Pwt-4Q-wpx" customClass="OldIdeologyDetailViewController" customModule="DOC3_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HhT-1x-H4T"/>
+                        <viewControllerLayoutGuide type="bottom" id="bsQ-uZ-kQt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AAV-1a-6wx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="the-coming-man-20-may-18811" translatesAutoresizingMaskIntoConstraints="NO" id="CoB-kS-GSY">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7np-um-K6b">
+                                <rect key="frame" x="16" y="119" width="288" height="380"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="380" id="nZz-Rv-LqT"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">1840s - FIrst Wave of Chinese immigrants to the US
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="19" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">At this time, the first genration of Chinese immigrants were treated as "cheap labor", "exploitable" and "model minorities".
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Anti-Chinese Sentiment
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="19" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Chinese were excluded from other working positions because of their physical appliance as "non-whites". They can only do jobs like laundry shops that were regarded as "feminine". Even in this situation, their laundry shops are also boycotted by whites.
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Racial Structures in the 19th Century
+
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="19" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">1875 Page Act
+1882 Chinese Exclusion Act
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="19" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CoB-kS-GSY" secondAttribute="trailing" id="15r-y4-wgV"/>
+                            <constraint firstAttribute="trailing" secondItem="7np-um-K6b" secondAttribute="trailing" constant="16" id="Jb7-Z8-NKu"/>
+                            <constraint firstItem="CoB-kS-GSY" firstAttribute="leading" secondItem="AAV-1a-6wx" secondAttribute="leading" id="MSt-QH-NG7"/>
+                            <constraint firstAttribute="bottom" secondItem="CoB-kS-GSY" secondAttribute="bottom" id="Q2a-mF-8Yd"/>
+                            <constraint firstItem="7np-um-K6b" firstAttribute="leading" secondItem="AAV-1a-6wx" secondAttribute="leading" constant="16" id="XHy-Mi-xZM"/>
+                            <constraint firstItem="bsQ-uZ-kQt" firstAttribute="top" secondItem="7np-um-K6b" secondAttribute="bottom" constant="20" id="ZUr-HX-NHt"/>
+                            <constraint firstItem="CoB-kS-GSY" firstAttribute="top" secondItem="HhT-1x-H4T" secondAttribute="bottom" id="bj9-zT-HJs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h5W-FM-FOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2112.8000000000002" y="83.208395802098963"/>
+        </scene>
+        <!--Ideology-->
+        <scene sceneID="E1i-R1-r8y">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GYy-ni-6XB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ideology" image="iconmonstr-id-card-22-32" id="PHW-IY-o1m">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-2"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LYO-1l-yJJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="azs-6x-cXY" kind="relationship" relationship="rootViewController" id="nM1-1M-yU1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iep-bc-CSq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="416.80000000000001" y="328.78560719640183"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="6461470302683" width="618" height="412"/>
+        <image name="Chinese-on-way-to-US" width="750" height="504"/>
+        <image name="iconmonstr-id-card-22-32" width="32" height="32"/>
+        <image name="the-coming-man-20-may-18811" width="431" height="653"/>
+    </resources>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+</document>
