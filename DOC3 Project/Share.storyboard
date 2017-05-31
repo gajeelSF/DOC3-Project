@@ -95,7 +95,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Share" id="0DH-2W-cCe">
-                        <barButtonItem key="rightBarButtonItem" title="Write" id="RF6-8k-Ex8">
+                        <barButtonItem key="rightBarButtonItem" image="iconmonstr-plus-5-24" id="RF6-8k-Ex8">
                             <connections>
                                 <action selector="onWrite:" destination="j9p-65-Zyp" id="m07-2i-WzW"/>
                             </connections>
@@ -162,7 +162,7 @@
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugt-1d-nBZ">
-                                <rect key="frame" x="8" y="189" width="304" height="322"/>
+                                <rect key="frame" x="16" y="189" width="288" height="322"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
@@ -172,12 +172,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="FT3-jA-PxT" firstAttribute="top" secondItem="o8F-px-zpn" secondAttribute="bottom" constant="8" id="2aB-PV-TxU"/>
-                            <constraint firstItem="Ugt-1d-nBZ" firstAttribute="leading" secondItem="hfd-MU-wBO" secondAttribute="leading" constant="8" id="935-fh-rir"/>
+                            <constraint firstItem="Ugt-1d-nBZ" firstAttribute="leading" secondItem="hfd-MU-wBO" secondAttribute="leading" constant="16" id="935-fh-rir"/>
                             <constraint firstAttribute="trailing" secondItem="KBA-bQ-tYJ" secondAttribute="trailing" constant="8" id="AuX-iX-LFy"/>
                             <constraint firstItem="KBA-bQ-tYJ" firstAttribute="top" secondItem="NlE-n8-1wn" secondAttribute="bottom" constant="6" id="Cz7-oz-Jrj"/>
                             <constraint firstItem="9cw-zo-yDE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NlE-n8-1wn" secondAttribute="trailing" constant="8" id="Fnt-L2-oOR"/>
                             <constraint firstItem="FT3-jA-PxT" firstAttribute="leading" secondItem="hfd-MU-wBO" secondAttribute="leading" constant="8" id="KqA-zF-5Mt"/>
-                            <constraint firstAttribute="trailing" secondItem="Ugt-1d-nBZ" secondAttribute="trailing" constant="8" id="Krs-H0-VWL"/>
+                            <constraint firstAttribute="trailing" secondItem="Ugt-1d-nBZ" secondAttribute="trailing" constant="16" id="Krs-H0-VWL"/>
                             <constraint firstItem="oif-HE-JMV" firstAttribute="centerY" secondItem="o8F-px-zpn" secondAttribute="centerY" id="W5k-tS-Kgn"/>
                             <constraint firstItem="o8F-px-zpn" firstAttribute="leading" secondItem="hfd-MU-wBO" secondAttribute="leading" constant="8" id="XOa-2q-KxG"/>
                             <constraint firstItem="o8F-px-zpn" firstAttribute="top" secondItem="NlE-n8-1wn" secondAttribute="bottom" constant="16" id="YoM-n3-3Br"/>
@@ -375,6 +375,7 @@
         <image name="iconmonstr-arrow-64-24" width="24" height="24"/>
         <image name="iconmonstr-paper-plane-1-24" width="24" height="24"/>
         <image name="iconmonstr-photo-camera-13-240" width="240" height="240"/>
+        <image name="iconmonstr-plus-5-24" width="24" height="24"/>
         <image name="iconmonstr-share-7-32" width="32" height="32"/>
         <image name="iconmonstr-user-20-240" width="240" height="240"/>
     </resources>

@@ -1,14 +1,14 @@
 //
-//  IdeologyViewController.swift
+//  informationViewController.swift
 //  DOC3 Project
 //
-//  Created by SongYuda on 5/25/17.
+//  Created by SongYuda on 5/30/17.
 //  Copyright © 2017 SongYuda. All rights reserved.
 //
 
 import UIKit
 
-class IdeologyViewController: UIViewController {
+class informationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,13 +21,12 @@ class IdeologyViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onTapOld(_ sender: UITapGestureRecognizer) {
-        self.performSegue(withIdentifier: "toOld", sender: nil)
+    @IBAction func onTapBottom(_ sender: UITapGestureRecognizer) {
+        let url = URL(string: "https://github.com/gajeelSF/DOC3-Project")
+        UIApplication.shared.openURL(url!)
     }
 
-    @IBAction func onTapNew(_ sender: UITapGestureRecognizer) {
-        self.performSegue(withIdentifier: "toNew", sender: nil)
-    }
+
     /*
     // MARK: - Navigation
 

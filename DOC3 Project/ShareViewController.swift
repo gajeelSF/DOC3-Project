@@ -35,6 +35,7 @@ class ShareViewController: UIViewController, UITableViewDelegate, UITableViewDat
             if let posts = posts {
                 self.posts = posts
                 self.tableView.reloadData()
+                progress.hide(animated: true)
             }
             else {
                 
@@ -42,7 +43,7 @@ class ShareViewController: UIViewController, UITableViewDelegate, UITableViewDat
             }
         }
         
-        progress.hide(animated: true)
+        
         
         let refreshControl = UIRefreshControl()
 

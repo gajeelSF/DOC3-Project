@@ -67,9 +67,16 @@ class CreatePostViewController: UIViewController,UIImagePickerControllerDelegate
     @IBAction func onPost(_ sender: Any) {
         let event = PFObject(className: "post")
         
-        event["name"] = nameTextField.text
-        event["title"] = titleTextField.text
-        event["content"] = contentTextView.text
+        if let name = nameTextField.text {
+        
+            event["name"] = name
+        }
+        if let title = titleTextField.text {
+            event["title"] = title
+        }
+        if let content = contentTextView.text{
+            event["content"] = content
+        }
         if let image = self.pickedImage  {
             event["profile"] = getPFFileFromImage(image: image)
         }

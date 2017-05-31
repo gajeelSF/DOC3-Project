@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="U5j-fT-39G">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -12,27 +12,134 @@
         <!--Inforamtion-->
         <scene sceneID="iDV-Lr-yGK">
             <objects>
-                <viewController id="esV-kf-Vbw" sceneMemberID="viewController">
+                <viewController id="esV-kf-Vbw" customClass="informationViewController" customModule="DOC3_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pp6-cU-hnT"/>
                         <viewControllerLayoutGuide type="bottom" id="ERD-Qe-YDW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BEn-ce-3Jl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work Cited:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ido-XL-0Fy">
+                                <rect key="frame" x="16" y="379" width="79.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Images from:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0I-VA-v1k">
+                                <rect key="frame" x="16" y="80" width="89" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNo-P0-Qsh">
+                                <rect key="frame" x="16" y="105" width="288" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="q9X-2s-yNp"/>
+                                </constraints>
+                                <string key="text">http://teachingresources.atlas.illinois.edu/chinese_exp/process03.html
+
+https://archives.sfweekly.com/sanfrancisco/san-francisco-mayor-phelan-history-racism/Content?oid=3555866
+                                                     
+http://www.smartshanghai.com/articles/nightlife/the-list-nightclubs-in-shanghai
+
+https://myspace.com/article/2016/6/3/non-superhero-graphic-novels-top-8</string>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Takaki, Ronald. A Different Mirror. Boston, MA.: Little, Brown and Company, 1993. Print." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFf-3J-gbW">
+                                <rect key="frame" x="16" y="404" width="288" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YEA-JL-rV3">
+                                <rect key="frame" x="8" y="469" width="304" height="50"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="github-mark" translatesAutoresizingMaskIntoConstraints="NO" id="LEA-nD-rkC">
+                                        <rect key="frame" x="137" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="AsQ-ji-dHK"/>
+                                            <constraint firstAttribute="height" constant="30" id="LlZ-y7-jDv"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2017 Yuda Song. All rights reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrZ-BB-bpk">
+                                        <rect key="frame" x="28" y="34" width="247.5" height="12"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="vrZ-BB-bpk" secondAttribute="bottom" constant="4" id="31I-Hs-BWX"/>
+                                    <constraint firstItem="LEA-nD-rkC" firstAttribute="centerX" secondItem="YEA-JL-rV3" secondAttribute="centerX" id="8I8-L2-XHe"/>
+                                    <constraint firstItem="vrZ-BB-bpk" firstAttribute="centerX" secondItem="YEA-JL-rV3" secondAttribute="centerX" id="AWb-l2-OIy"/>
+                                    <constraint firstAttribute="bottom" secondItem="LEA-nD-rkC" secondAttribute="bottom" constant="20" id="MYe-oJ-MZz"/>
+                                    <constraint firstAttribute="height" constant="50" id="Pot-6M-dQ0"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4h3-oY-I6s" appends="YES" id="D98-2q-TmL"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Flx-Hp-bE7">
+                                <rect key="frame" x="16" y="362" width="288" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="5Me-8H-CdD"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ce7-gd-cB6">
+                                <rect key="frame" x="16" y="460" width="288" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="DiE-LO-iIA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ce7-gd-cB6" secondAttribute="trailing" constant="16" id="0rH-bT-kjl"/>
+                            <constraint firstItem="Flx-Hp-bE7" firstAttribute="top" secondItem="RNo-P0-Qsh" secondAttribute="bottom" constant="7" id="2L8-mP-LT3"/>
+                            <constraint firstItem="YEA-JL-rV3" firstAttribute="leading" secondItem="BEn-ce-3Jl" secondAttribute="leading" constant="8" id="2xd-FE-BaV"/>
+                            <constraint firstItem="YEA-JL-rV3" firstAttribute="top" secondItem="Ce7-gd-cB6" secondAttribute="bottom" constant="8" id="Bkh-fg-6ie"/>
+                            <constraint firstAttribute="trailing" secondItem="Flx-Hp-bE7" secondAttribute="trailing" constant="16" id="FvB-EM-1Ai"/>
+                            <constraint firstItem="YEA-JL-rV3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="eFf-3J-gbW" secondAttribute="bottom" constant="15" id="JZb-E1-AgP"/>
+                            <constraint firstAttribute="trailing" secondItem="YEA-JL-rV3" secondAttribute="trailing" constant="8" id="Juj-xE-t7i"/>
+                            <constraint firstItem="ERD-Qe-YDW" firstAttribute="top" secondItem="YEA-JL-rV3" secondAttribute="bottom" id="QIl-op-Ngr"/>
+                            <constraint firstItem="Ce7-gd-cB6" firstAttribute="leading" secondItem="BEn-ce-3Jl" secondAttribute="leading" constant="16" id="QcZ-16-drE"/>
+                            <constraint firstItem="e0I-VA-v1k" firstAttribute="top" secondItem="Pp6-cU-hnT" secondAttribute="bottom" constant="16" id="Uni-iI-iQX"/>
+                            <constraint firstItem="ido-XL-0Fy" firstAttribute="top" secondItem="RNo-P0-Qsh" secondAttribute="bottom" constant="24" id="Wa9-Z2-Kz7"/>
+                            <constraint firstItem="RNo-P0-Qsh" firstAttribute="leading" secondItem="BEn-ce-3Jl" secondAttribute="leading" constant="16" id="XL4-FD-haF"/>
+                            <constraint firstItem="eFf-3J-gbW" firstAttribute="top" secondItem="ido-XL-0Fy" secondAttribute="bottom" constant="8" id="Xt3-bi-kfA"/>
+                            <constraint firstAttribute="trailing" secondItem="eFf-3J-gbW" secondAttribute="trailing" constant="16" id="Yuf-Qi-4XF"/>
+                            <constraint firstAttribute="trailing" secondItem="RNo-P0-Qsh" secondAttribute="trailing" constant="16" id="eLQ-q7-2Zn"/>
+                            <constraint firstItem="Flx-Hp-bE7" firstAttribute="leading" secondItem="BEn-ce-3Jl" secondAttribute="leading" constant="16" id="gOb-ce-M1R"/>
+                            <constraint firstItem="ido-XL-0Fy" firstAttribute="leading" secondItem="BEn-ce-3Jl" secondAttribute="leading" constant="16" id="hOU-Gm-adg"/>
+                            <constraint firstItem="e0I-VA-v1k" firstAttribute="leading" secondItem="BEn-ce-3Jl" secondAttribute="leading" constant="16" id="kRO-oG-xSl"/>
+                            <constraint firstItem="eFf-3J-gbW" firstAttribute="leading" secondItem="BEn-ce-3Jl" secondAttribute="leading" constant="16" id="mPp-DV-dHb"/>
+                            <constraint firstItem="RNo-P0-Qsh" firstAttribute="top" secondItem="e0I-VA-v1k" secondAttribute="bottom" constant="8" id="oZp-8g-tf2"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Inforamtion" id="bag-G1-KSV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oee-ev-bBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="4h3-oY-I6s">
+                    <connections>
+                        <action selector="onTapBottom:" destination="esV-kf-Vbw" id="gl9-HV-XqB"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1351.2" y="-199.25037481259372"/>
+            <point key="canvasLocation" x="1125" y="-209.1549295774648"/>
         </scene>
         <!--Information-->
         <scene sceneID="CNJ-gn-OGX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U5j-fT-39G" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Information" id="Bfx-Pa-Q97"/>
+                    <tabBarItem key="tabBarItem" title="Information" image="iconmonstr-info-6-32" selectedImage="iconmonstr-info-6-32" id="Bfx-Pa-Q97"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aje-I9-6VV">
@@ -49,4 +156,8 @@
             <point key="canvasLocation" x="412" y="-199.25037481259372"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="github-mark" width="1200" height="630"/>
+        <image name="iconmonstr-info-6-32" width="32" height="32"/>
+    </resources>
 </document>

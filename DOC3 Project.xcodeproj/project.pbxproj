@@ -14,6 +14,7 @@
 		8D559E4C1ED7A9B70074F680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D559E4B1ED7A9B70074F680 /* Assets.xcassets */; };
 		8D559E4F1ED7A9B70074F680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D559E4D1ED7A9B70074F680 /* LaunchScreen.storyboard */; };
 		8D9F9F731EDB709E00DBF940 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F9F721EDB709E00DBF940 /* PostDetailViewController.swift */; };
+		8DAC097D1EDE8E0000EDF23F /* informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC097C1EDE8E0000EDF23F /* informationViewController.swift */; };
 		8DD29F081ED7AEAB00075551 /* ideology.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD29F071ED7AEAB00075551 /* ideology.storyboard */; };
 		8DD29F0C1ED7BD6000075551 /* Share.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD29F0B1ED7BD6000075551 /* Share.storyboard */; };
 		8DD29F0E1ED7BEB200075551 /* IdeologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD29F0D1ED7BEB200075551 /* IdeologyViewController.swift */; };
@@ -37,6 +38,7 @@
 		8D559E4E1ED7A9B70074F680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D559E501ED7A9B70074F680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D9F9F721EDB709E00DBF940 /* PostDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		8DAC097C1EDE8E0000EDF23F /* informationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = informationViewController.swift; sourceTree = "<group>"; };
 		8DD29F071ED7AEAB00075551 /* ideology.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ideology.storyboard; sourceTree = "<group>"; };
 		8DD29F0B1ED7BD6000075551 /* Share.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Share.storyboard; sourceTree = "<group>"; };
 		8DD29F0D1ED7BEB200075551 /* IdeologyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeologyViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				8DD29F171ED8D5CD00075551 /* CreatePostViewController.swift */,
 				8D9F9F721EDB709E00DBF940 /* PostDetailViewController.swift */,
 				8DFA50381EDE1FF60000C0FC /* Information.storyboard */,
+				8DAC097C1EDE8E0000EDF23F /* informationViewController.swift */,
 			);
 			path = "DOC3 Project";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				8D9F9F731EDB709E00DBF940 /* PostDetailViewController.swift in Sources */,
 				8DD29F101ED7D9C500075551 /* OldIdeologyDetailViewController.swift in Sources */,
 				8D559E471ED7A9B70074F680 /* ViewController.swift in Sources */,
+				8DAC097D1EDE8E0000EDF23F /* informationViewController.swift in Sources */,
 				8D559E451ED7A9B70074F680 /* AppDelegate.swift in Sources */,
 				8DD29F121ED7D9D300075551 /* NewIdeologyDetailViewController.swift in Sources */,
 			);
